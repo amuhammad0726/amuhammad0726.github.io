@@ -1,0 +1,188 @@
+html{
+    overflow: hidden; /*edit later for responsive design(ex. change pixels to vh or rem)*/
+}
+
+#fshape{
+    width: 40rem; 
+    height: 7rem;
+    position: sticky;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}
+
+#p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 70px;
+    bottom: 46px;
+    height: 0px;
+    z-index: 1;
+    font-weight: 500;
+}
+
+#copy{
+    background-color: white;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    height: 0px;
+    z-index: 1;
+}
+
+.socials{
+    background-color: rgb(7, 1, 1);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.socials ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.socials ul li a{
+    margin: 0.5rem 0.5rem;
+    color: white;
+}
+
+.socials ul li a i:hover{
+    transition: 0.4s ease-in-out;
+    transform: translateY(-20px);
+}
+
+#S1:hover{
+    transition: 0.1s ease-in-out;
+    color: #4267B2;
+    cursor: pointer;
+}
+
+#S2:hover{
+    transition: 0.1s ease-in-out;
+    color: #8a3ab9;
+    cursor: pointer;
+}
+
+#S3:hover{
+    transition: 0.1s ease-in-out;
+    color: #0077b5;
+    cursor: pointer;
+}
+
+#S4:hover{
+    transition: 0.1s ease-in-out;
+    color: #171515;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Playball', cursive;
+    background: linear-gradient(to right, #aa36ee, #E139E4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1380px){
+    .title{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+
+.subtitle{
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.home-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.text-wrapper{
+    margin-top: 10%;
+    margin-right: 5rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.img-wrapper img{
+    margin-left: 5rem;
+    height: 35rem;
+    width: 32rem;
+}
+
+.home-main-section .img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*going in the future to make site even more responsive, fix this below area and maybe
+create a nav bar burger once width is really small*/
+@media (max-width: 900px){
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+
+    .home-main-section{
+        justify-content: center;
+    }
+}
+
+.homepage-circle1{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: rgb(243, 73, 246);
+    opacity: 0.3;
+    bottom: 20vw;
+    left: 47vw
+}
+
+.homepage-circle2{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: rgb(251, 47, 254);
+    opacity: 0.3;
+    bottom: 35vw;
+    left: 75vw
+}
+
+.homepage-circle3{
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    background-color: rgb(246, 178, 248);
+    opacity: 0.3;
+    bottom: 10vw;
+    left: 85vw;
+}
+
+
+
+
+

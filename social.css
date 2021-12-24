@@ -1,0 +1,15 @@
+.extrasocial-main-section{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    background: linear-gradient(to right, #aa36ee, #E139E4);
+    height: 16rem;
+    width: 30rem;
+    font-family: 'Poppins';
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+.note h1{
+    margin: 1rem;
+}

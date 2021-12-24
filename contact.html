@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Contact Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="styles.css" />
+    <link rel = "stylesheet" href="contact.css" />
+</head>
+
+<body class = "full-height-grow">
+    <div class="container full-height-grow">
+        <header class = "main-header"> 
+            <a href = "/" class = "logo"> 
+                <img width = "270px" height = "80px" id = "am" src = "./HPImages/Full Logo.png">
+            </a>
+
+            <nav class = "main-nav">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Me</a></li>
+                    <li><a href = "projects.html">Projects</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <img id = "cvector1" src = "./CPImages/Vector 2.png" alt = "blob"/>
+        <img id = "cvectors2" src = "./CPImages/Vector 4.png" alt = "blob"/>
+
+        <section class = "contact-main-section">
+        <!-- use the <span> tag to add text or content that will remain together but needs to be edited seperately-->
+            <div class="cdesign">
+                <img src = "./CPImages/undraw_contact_us_15o2 1.png" alt = "socials">
+                <h1 class = "contact-text">
+                    Any Questions? <br>
+                    <span class = "color-text">Contact Me</span>
+                </h1>
+            </div>
+
+            <div class="contact-box">
+                <form action="https://formspree.io/f/xyyoybll" method="POST">
+                    <label class = "lb">Name:</label>
+                    <input type = "text" class = "input-field" name = "name" required>
+                    <label class = "lb">Email:</label>
+                    <input type = "text" class = "input-field" name = "email" required>
+                    <label class = "lb">Message:</label>
+                    <textarea type = "text" class = "input-field ta-field" name = "message" required></textarea>
+                    <button type = "submit" class = "btn" value = "submit">Submit</button>
+                </form>
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer class = "main-footer">
+        <div class="container">
+            <nav class = "cnav footer-nav">
+                <ul>
+                    <li><i id = "copyf" class="fas fa-copyright"></i></li>
+                    <li><p id = "para"> 2021 Aliyan Muhammad</p></li>
+                </ul>
+            </nav>
+            <nav class = "footer-nav">
+                <ul> 
+                    <li><a href = "./extrasocial.html"><i id = "face" class="fab fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href = "./extrasocial.html"><i id = "insta" class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a target = "_blank" href = "https://www.linkedin.com/in/aliyan-muhammad-9a4b04143/"><i id = "linked" class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li><a target = "_blank" href = "https://github.com/amuhammad0726"><i id = "git"class="fab fa-github-square fa-2x"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/d779549698.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
